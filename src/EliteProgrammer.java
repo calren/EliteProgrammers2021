@@ -1,8 +1,8 @@
-public interface EliteProgrammer {
+public abstract class EliteProgrammer {
 
-    String getName();
+    public abstract String getName();
 
-    String getCurrentFavoriteSong();
+    public abstract String getCurrentFavoriteSong();
 
-    String getFavoriteFood();
+    public abstract String getFavoriteFood();
 }
