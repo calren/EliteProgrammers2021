@@ -10,11 +10,18 @@ public class Main {
     static List<EliteProgrammer> programmers = new ArrayList<>();
 
     public static void main(String[] args) {
+        printFavoriteFoods();
+        printFavoriteSongs();
+    }
 
+    public static List<EliteProgrammer> createProgrammer(){
+        EliteProgrammer ayana = new Person("Ayana", "This Is What You Came For", "Dark Chocolate");
+        programmers.add(ayana);
+        return programmers;
     }
 
     public static void printFavoriteFoods() {
-
+        programmers = createProgrammer();
         for (EliteProgrammer programmer : programmers) {
             System.out.println(programmer.getName() + "'s favorite food is: "
                     + programmer.getFavoriteFood());
