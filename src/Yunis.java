@@ -1,17 +1,17 @@
 public class Yunis extends EliteProgrammer{
     @Override
     public String getName() {
-        return null;
+        return "Yunis";
     }
 
     @Override
     public String getCurrentFavoriteSong() {
-        return null;
+        return "Surah Yaseen";
     }
 
     @Override
     public String getFavoriteFood() {
-        return null;
+        return "Rice";
     }
 
 
